@@ -1,9 +1,10 @@
 package com.guigu.gmall.gmallusermanage.service.Impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.guigu.gmall.gmallusermanage.bean.UserInfo;
+
+import com.gugi.gmall.bean.UserInfo;
 import com.guigu.gmall.gmallusermanage.mapper.UserInfoMapper;
-import com.guigu.gmall.gmallusermanage.service.UserService;
+import com.guigu.gmall.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import tk.mybatis.mapper.entity.Example;
